@@ -1,0 +1,53 @@
+Array
+  chunk,
+  findIndex,
+  find,
+  flatten,
+  indexOf
+  join,
+  slice,
+  sort,
+  uniq, 
+
+Collection
+  forEach
+  FileSystemEntry,
+  map,
+  reduce,
+  some,
+  sortby
+
+function
+  curry -> https://javascript.info/currying-partials
+
+  debounce
+  defer
+  throttle
+
+  memoize
+
+Lang
+  clone
+  cloneDeep
+
+Object
+  findKey,
+  keys,
+  values
+
+  curry - https://javascript.info/currying-partials
+
+function square(n) {
+    return n * n;
+}
+
+function map(array, square) {
+  // 
+  return newArrray;
+} 
+
+map([11], () => {}); // []
+
+git -> push , pull, merge, commit
+
+1step -> pull -r(rebase), push -f, 
