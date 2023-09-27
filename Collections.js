@@ -41,9 +41,8 @@ app.get('/', (req, res) => {
     arr = [1, 5, 2, 8, 3, 4];
     console.log(_.sortBy(arr, (a, b) => b - a));
     console.log(_.sortBy(users, o => o.age));
+
     res.send("This is home page");
 });
 
-app.listen(port, () => {
-    console.log("The server is running...");
-});
+app.listen(port, () => console.log("The server is running..."));

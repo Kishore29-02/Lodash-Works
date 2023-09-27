@@ -3,7 +3,7 @@ Array
   findIndex,
   find,
   flatten,
-  indexOf
+  indexOf,
   join,
   slice,
   sort,
@@ -13,18 +13,17 @@ Collection
   forEach
   FileSystemEntry,
   map,
-  reduce,
+  reduce*,
   some,
   sortby
 
 function
   curry -> https://javascript.info/currying-partials
 
-  debounce
-  defer
-  throttle
-
-  memoize
+  debounce*
+  defer*
+  throttle*
+  memoize*
 
 Lang
   clone
