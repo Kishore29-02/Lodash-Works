@@ -34,7 +34,7 @@ Object
   keys,
   values
 
-  curry - https://javascript.info/currying-partials
+  curry - https://javascript.info/currying-partials .
 
 function square(n) {
     return n * n;

@@ -26,7 +26,16 @@ app.get("/", (req, res) => {
 
     _.defer(() => console.log("hello"), 1000, "End of stack");
 
-    res.send("I am @ HOME");
+    //throttle
+    let cnt = 0;
+    const throttleFun = _.throttle(() => console.log(`Throttle function:${cnt++}`), 2000);
+    // throttleFun();
+
+    // setInterval(throttleFun, 1000);
+
+    console.log(_.values());
+    res.send("@ HOME");
+
 
 });
 
